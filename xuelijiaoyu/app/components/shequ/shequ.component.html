@@ -1,0 +1,71 @@
+<section>
+    <div class="container">
+        <div class="shequ row">
+            <ul>
+                <li *ngFor="let shequ of shequ" class="more">
+                    <div class="img">
+                        <img src="../images/yonghu.png" class="img" >
+                    </div>
+                    <div class="text">
+                        <div class="content">
+                            <div class="media">
+                                <div class="banner">
+                                    <a href="#">
+                                    <img class="media-object" src="{{shequ.images}}" alt="">
+                                    </a>
+                                </div>
+                                <div class="body">
+                                    <a href="#"><div class="title">{{shequ.shequName}}</a>
+                                </div>
+                                <div class="list">{{shequ.content}}</div>
+                        </div>
+                    </div>
+                                <div class="footer">
+                                    <span class="author">{{shequ.Publisher}}</span>
+                                    <span class="time">{{time}}</span>
+                                    <div>
+                                        <span class="read">阅读{{shequ.readcount}}</span>    
+                                        <span class="comment">评论{{shequ.commentcount}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                <footer class="page">
+                    <nav>
+                        <ul>
+                          <li>
+                            <a href="#"></a>
+                          </li>
+                          <li><a href="#">1</a></li>
+                          <li><a href="#">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">5</a></li>
+                          <li><a href="#">6</a></li>
+                          <li><a href="#">7</a></li>
+                          <li>
+                            <a href="#"></a>
+                          </li>
+                        </ul>
+                      </nav>
+                </footer>
+            
+            <div class="right">
+                <h4 class="title">热门话题</h4>
+                <ul>
+                    <li class="item" *ngFor="let conversation of conversation">
+                        <span>{{conversation.content}}</span>
+                        <span class="pull-right">{{conversation.Number}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <span class="text">© 2015-2018 雪梨教育 石家庄佳诚网络技术有限公司版权所有 冀ICP备12011972号-4</span>
+        </div>
+      </footer>
+</section>
+

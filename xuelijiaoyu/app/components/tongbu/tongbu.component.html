@@ -1,0 +1,62 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <ul>
+        <li *ngFor="let tongbu of tongbu"
+          <div class="article">
+              <a [routerLink]="['/tongbu',tongbu.id]"><img src="{{tongbu.images}}" alt=""></a>
+              <a [routerLink]="['/tongbu',tongbu.id]">
+                <h1 class="title">{{tongbu.tongbuName}}</h1>
+              </a>
+              <a [routerLink]="['/tongbu',tongbu.id]">
+                <p class="description"></p>
+              </a>
+              <div class="team">
+                  <a [routerLink]="['/tongbu',tongbu.id]">
+                    <span class="group">
+                      {{tongbu.task}}
+                    </span>
+                  </a>
+                  <span class="group">
+                    {{tongbu.person}}
+                  </span>
+                <div>
+                  <button>申请</button>
+                </div>
+              </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#"></a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#">11</a></li>
+        <li><a href="#">12</a></li>
+        <li><a href="#">...</a></li>
+        <li>
+          <a href="#"></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div>
+      <span class="text">© 2015-2018 雪梨教育 石家庄佳诚网络技术有限公司版权所有 冀ICP备12011972号-4</span>
+    </div>
+  </div>
+</footer>

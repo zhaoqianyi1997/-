@@ -1,0 +1,182 @@
+a{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+section{
+    padding-top: 48px;
+    height: 100%;
+    min-width: 300px;
+}
+section .container{
+    min-height: 600px;
+    min-width: 840px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.index-baes{
+    margin-top: 25px;
+    min-height: 600px;
+}
+.menuwrap{
+    position: fixed;
+    height: 75%;
+    width: 170px;
+    overflow: hidden;
+}
+.menu{
+    float: none;
+    font-size: 14px;
+    margin-right: -20px;
+    padding-right: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+.avatar{
+    position: relative;
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+.intro{
+    width: 100%;
+    padding-top: 100%;
+    display: block;
+    position: relative;
+}
+.user{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../../assets/images/yonghu.png);
+}
+.name{
+    color: hsl(0,0%,27%);
+    font-size: 1.2em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    clear: both;
+    line-height: 2;
+    overflow: hidden
+}
+.fans{
+    font-size: 16px;
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+.fans a{
+    display: block;
+    float: left;
+    width: 50%;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fans a span{
+    display: block;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 0.8em;
+    color: #454545
+}
+.item{
+    position: relative;
+    font-size: 1.2em;
+    line-height: 2;
+    margin: 2px 0;
+    transition: all 130ms;
+    padding-left: 15px;
+    width: 170px;
+    cursor: pointer;
+}
+.item-hover{
+    background-color: #ff6e3d21;
+    border-radius: 20px;
+}
+.item-hover a{
+    color: #ff6e3d;
+}
+.item:hover{
+    background-color: #ff6e3d21;
+    border-radius: 20px;   
+}
+.item:hover a{
+    color: #ff6e3d;
+}
+
+.index-main{
+    padding: 20px 32px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.06);
+    border-radius: 4px;
+    margin-bottom: 40px;
+    margin-left: 204px;
+}
+.child-pager-header{
+    border-bottom: 2px solid #eee;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.header{
+    margin-bottom: -2px;
+    padding-left: 0;
+    display: inline-block;
+}
+.header li.active{
+    border-bottom: 2px solid #ff6e3d;
+}
+.header li{
+    list-style: none;
+    display: inline-block;
+    border-bottom: 2px solid #eee;
+    cursor: pointer;
+}
+.header li a{
+    outline: none;
+    font-size: 0.9em;
+    padding: 0.5em 0.8em;
+    display: inline-block;
+    line-height: 1.8;
+}
+.header li .count{
+    background-color: #ff6e3d;
+    color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px;
+    margin-left: 0.3em;
+    line-height: 1;
+    font-size: 13px;
+}
+.from{
+    padding-right: 40px;
+    margin-top:0px;
+}
+.souxun{
+    border-radius: 0 4px 4px 0;
+    padding: 2px;
+}
+.control{
+    border-radius: 4px 0 0 4px;
+}
+.index-main {
+    margin: 100px auto;
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+}
+.index-main .content{
+    font-size: 1em;
+    line-height: 3;
+    color: #9e9e9e;
+}
